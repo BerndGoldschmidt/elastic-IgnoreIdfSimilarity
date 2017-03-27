@@ -14,9 +14,9 @@ Make sure you add similarity to the index' settings:
 
     "similarity": {
         "ignore-idf-similarity": {
-            "type": "ignoreidfsimilarity",
-        },
-    },
+            "type": "ignoreidfsimilarity"
+        }
+    }
 
 and use it in the mappings of the index:
 
